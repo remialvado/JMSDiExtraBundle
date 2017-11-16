@@ -37,6 +37,8 @@ matrix:
           env: SYMFONY_DEPRECATIONS_HELPER=weak_vendors SYMFONY_VERSION=2.8.* COVERAGE=true
         - php: 7.0
           env: SYMFONY_DEPRECATIONS_HELPER=weak_vendors SYMFONY_VERSION=3.2.*
+        - php: 7.0
+          env: SYMFONY_DEPRECATIONS_HELPER=weak_vendors SYMFONY_VERSION=4.0.*
         - php: 7.1
           env: ~
     allow_failures:
